@@ -1,4 +1,13 @@
-### open the connection to the file
+##################################################################################
+##################################################################################
+### DESCRIPTION: This file contains a vignette in R on netCDF4 files with arctic 
+### sea ice data as an example. Read in the data & convert the first 10 years of
+### observations to a traditional R data frame.
+###
+### AUTHOR: CHRIS GALBRAITH
+##################################################################################
+##################################################################################
+### load necessary package & open the connection to the file
 library(ncdf4)
 seaice <- nc_open("G10010_SIBT1850_v1.1.nc")
 print(seaice)
@@ -21,11 +30,11 @@ ts <- as.POSIXct(t*sec.mult, origin="2001-01-01 00:00:00", tz="UTC")
 
 ### get sea ice concentration - this is a long vector that has varies first by
 ### longitude, then latitude, then time (i.e. the first nlon=1440 observations
-### were taken from various longitudes at 89.875 deg latitude on 1850-01-15, 
-### the next 1440 obs were taken at 89.625 deg lat on the same day, etc). Thus,
-### each day of measurement has nlon*nlat=345,600 observations and there are 
-### 1968 total observations (164 years * 12 monthly measurements) for approx 
-### 680 million total observations 
+### were taken at longitudes varying by 1/4 degree at fixed 89.875 deg latitude 
+### on 1850-01-15, the next 1440 obs were taken at 89.625 deg lat on the same day, 
+### etc). Thus, each day of measurement has nlon*nlat=345,600 observations and there 
+### are 1968 total days measured (164 years * 12 monthly measurements) for approx 
+### 680 million total observations. 
 conc <- ncvar_get(seaice,"seaice_conc")
 
 ### get source of concentration measurement - same as concentration
