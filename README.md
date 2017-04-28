@@ -42,3 +42,7 @@ Choose one of the following data sets to analyze:
 + [California Drought](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/CA_drought)
 
 + [West Coast Fires](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/west_coast_fires)
+
+## Organizers
++ Chris Galbraith: galbraic@uci.edu
++ Micah Jackson: gmjackso@uci.edu
