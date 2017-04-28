@@ -1,0 +1,2 @@
+## Description
+Reconstruction of Arctic sea ice from 1850 to 2013 from the [NSIDC](http://nsidc.org/about/overview). The data was reformatted into csv files for your convenience with each file containing the sea ice concentration and source of the measurement for a span of 10 years, measured monthly, at 1/4 degree latitude and longitude increments. The original data in netCDF4 format is available [here](https://nsidc.org/data/g10010).
