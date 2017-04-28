@@ -41,9 +41,9 @@ conc <- ncvar_get(seaice,"seaice_conc")
 src <- ncvar_get(seaice,"seaice_source")
 
 ### create data frame for first 10 years of measurements
-longitude <- rep(rep(lon, nlat),nt)
-latitude <- rep(rep(lat, each=nlon),nt)
-date <- rep(ts, each=nlon*nlat)
+longitude <- rep(rep(lon, nlat),nt)  # longitude varies first
+latitude <- rep(rep(lat, each=nlon),nt)  # latitude varies next
+date <- rep(ts, each=nlon*nlat)  # time varies last
 
 yr.splits <- seq(1,length(conc),by=nlon*nlat*12) # index of first obs of each year
 rng <- yr.splits[1]:(yr.splits[1+10]-1) # indices of all obs in first 10 years 
