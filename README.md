@@ -37,8 +37,8 @@ Welcome to the UCI Data Science Initiative Climate Science Hackathon! The follow
 # Data
 Choose one of the following data sets to analyze:
 
-+ [Arctic Sea Ice](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/arctic_sea_ice/README.md)
++ [Arctic Sea Ice](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/arctic_sea_ice)
 
-+ [California Drought](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/CA_drought/README.md)
++ [California Drought](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/CA_drought)
 
-+ [West Coast Fires](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/west_coast_fires/README.md)
++ [West Coast Fires](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/west_coast_fires)
