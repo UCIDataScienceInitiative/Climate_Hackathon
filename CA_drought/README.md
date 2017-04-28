@@ -1,2 +1,4 @@
 ## Description
 California reservoir time series data for 83 locations across the state collected and processed by the [USGS-VIZLAB](https://cida.usgs.gov/ca_drought/). The reservoir.json file comes directly from this group, and the reservoir.csv contains the same informaiton but was put into a different format by the hackathon organizers. The latitude, longitude, elevation, capacity, and weekly storage measurements from 2000 to 2014 are recorded in these files. Note that there is missing data. More information about this dataset can be found [here](https://github.com/USGS-VIZLAB/CIDA-Viz/tree/master/ca_reservoirs).
+
+Note that both the capacity and storage variables are in units of acre-feet, which is a unit of volume equal to the volume of a sheet of water one acre (0.405 hectare) in area and one foot (30.48 cm) in depth. It is equivalent to 43,560 cubic feet (1233.5 cu m).
