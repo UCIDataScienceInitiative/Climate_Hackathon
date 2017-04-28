@@ -1,4 +1,4 @@
-Welcome to the UCI Data Science Initiative Climate Science Hackathon! The following contains the schedule and rules for the weekend along with basic descriptions of the data sets available for you to analyze. For more details on the data, please see the subdirectories.
+Welcome to the UCI Data Science Initiative Climate Science Hackathon! The following contains the rules and schedule for the weekend along with descriptions of the data sets available for you to analyze. 
 
 
 # Rules
@@ -21,14 +21,14 @@ Welcome to the UCI Data Science Initiative Climate Science Hackathon! The follow
 
 6 pm: dinner
 
-12 am: day ends
+12 am: leave DBH
 
 ### Sunday, April 30:
 9 am: coffee
 
 12:30 pm: lunch
 
-12:50 pm: group photo - wear your t-shirt!
+12:55 pm: group photo - wear your t-shirt!
 
 1 pm: project presentations
 
