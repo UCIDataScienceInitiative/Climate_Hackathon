@@ -43,6 +43,11 @@ Choose one of the following data sets to analyze:
 
 + [West Coast Fires](https://github.com/UCIDataScienceInitiative/Climate_Hackathon/tree/master/west_coast_fires)
 
-## Organizers
+# Acknowledgements
+The organizers would like to extend a thank you to everyone who contributed to this event. A special thanks is in order to Zach Labe and Yara Mohajerani for their kickoff presentations (and also for Zach Labe's helpful advice with the sea ice data) and to Zach Butler for providing the fire data.
+
+We would also like to acknowledge the hard work that was done to organize this event by Anna Chang & her staff and Wendy Anderson. Finally, we would like to thank Maritza Salazar for the insightful conversations had during the early stages of planning and for providing evaluation surveys.
+
+# Organizers
 + Chris Galbraith: galbraic@uci.edu
 + Micah Jackson: gmjackso@uci.edu
