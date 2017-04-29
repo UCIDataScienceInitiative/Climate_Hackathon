@@ -1,4 +1,4 @@
-Welcome to the UCI Data Science Initiative Climate Science Hackathon! The following contains the rules and schedule for the weekend along with descriptions of the data sets available for you to analyze. 
+Welcome to the UCI Data Science Initiative Climate Science Hackathon! The following contains the rules and schedule for the weekend along with descriptions of the data sets available for you to analyze. Check out the [SpaceTime](https://github.com/UCIDataScienceInitiative/SpaceTime) workshop for modeling spatio-temporal modeling strategies.
 
 
 # Rules
